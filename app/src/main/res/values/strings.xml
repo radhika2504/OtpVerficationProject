@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">OtpVerficationProject</string>
+    <string name="Welcome">WELCOME TO OUR SHOPPING APPLICATION</string>
+    <string name="Login_Button">LOGIN</string>
+    <string name="phone_number_text">Add Phone Number</string>
+    <string name="sms_text">SEND SMS</string>
+    <string name="smstext">SMS Text</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="todo">TODO</string>
+    <string name="todoOne">TODO</string>
+
+</resources>

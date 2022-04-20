@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginScreen">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/otp_layout"
+        android:visibility="gone"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:padding="10sp"
+            android:hint="phone no"
+            android:id="@+id/et_otp"
+            android:inputType="number"
+
+
+            android:layout_height="wrap_content"/>
+       <Button
+           android:layout_width="match_parent"
+           android:layout_marginHorizontal="50sp"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="30sp"
+           android:id="@+id/btn_signup"
+           android:textAllCaps="false"
+           android:hint="Sign Up"
+           android:background="@color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/phone_layout"
+        android:layout_height="wrap_content">
+    <EditText
+        android:layout_width="match_parent"
+        android:padding="10sp"
+        android:hint="phone no"
+        android:id="@+id/et_phone"
+        android:inputType="number"
+
+
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="50sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:textAllCaps="false"
+        android:id="@+id/btn_getotp"
+        android:hint="Get OTP"
+        android:background="@color/white"/>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
